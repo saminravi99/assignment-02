@@ -1,3 +1,29 @@
+/* Google Font Familes
+
+font-family: 'Inter', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif; 
+
+*/
+
+
+
+
+/* Font Awesome Icons
+
+<i class="fas fa-star"></i>
+<i class="fas fa-star-half-alt"></i>
+<i class="fas fa-shopping-cart"></i>
+<i class="fas fa-search"></i>
+<i class="fab fa-instagram-square"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-dribbble-square"></i>
+<i class="fab fa-youtube"></i>
+<i class="fas fa-long-arrow-alt-right"></i> 
+
+*/
+
+
 *{
     margin: 0;
     padding: 0;
@@ -6,8 +32,15 @@
 
 /* Common Styles  */
 
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
 
+/* .common-button{
 
+} */
 
 
 
