@@ -827,6 +827,65 @@ nav{
     } 
 
 
+    /* Media Query for Second Section for Tab  */
+
+    .second-section{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .company{
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        border: none;
+        grid-row-gap: 20px ;
+        grid-column-gap: 100px;
+        justify-items: center;
+        grid-template-areas: ". . a am d e . ."
+                            ". . r t w . . .";
+        }
+
+    .company div img{
+        width: 100px;
+    }
+
+    .alibaba{
+        grid-area: a;
+        
+    }
+
+    .amazon{
+        grid-area: am;
+    }
+
+    .daraz{
+        grid-area: d;
+    }
+
+    .ebay{
+        grid-area: e;
+    }
+
+    .rakuten{
+        grid-area: r;
+        grid-column: 3 /span 2;
+    }
+
+    .target{
+        grid-area: t;
+        grid-column: 4 /span 2;
+       
+    }
+
+    .walmart{
+        grid-area: w;
+         grid-column: 5 /span 2;
+       
+    }
+
+
 
    /* Media Query for Third Section for Tab  */
     .products-list{
