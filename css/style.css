@@ -170,7 +170,7 @@ nav{
     margin-top: 50px;
     align-items: center;
     justify-items: center;
-    overflow-y: hidden
+    overflow-x: hidden;
 }
 
 
@@ -617,6 +617,7 @@ nav{
     .first-section{
         display: flex;
         flex-direction: column-reverse;
+        padding-bottom: 10px;
     }
 
      .first-section-left{
