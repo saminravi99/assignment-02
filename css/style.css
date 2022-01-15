@@ -92,6 +92,7 @@ nav{
 
 .mobile-view-cart-search{
     display: none;
+    /* display  */
 }
 
 
@@ -458,14 +459,6 @@ nav{
     .nav-right ul li a{
         color: white;
     }
-
-    /* .nav-items ul li{
-        display: none;
-    }
-
-    .cart-list{
-        display: block;
-    } */
 
 
 
