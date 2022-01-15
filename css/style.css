@@ -690,7 +690,7 @@ nav{
     /* Media Query for Bonus Section for Mobile  */
 
     .bonus-section{
-        overflow-x: hidden;
+        overflow: hidden;
         max-width: 80%;
         margin: 0 auto;
         display: flex;
@@ -706,6 +706,7 @@ nav{
     .bonus-info{
         width: 100%;
         margin: 30px auto 0;
+        padding-bottom: 10px;
         
     }
 
