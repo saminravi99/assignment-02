@@ -175,20 +175,20 @@ nav{
 
 
 .first-section-left{
-    animation: first-section-left 1.5s linear 1;
+    animation: first-section-left 1s linear 1;
 }
 
 @keyframes first-section-left {
     0%{
-        transform: translateX(-600px);
+        transform: scale(0.5,0.5);
     }
 
     50%{
-        transform: translateX(-300px);
+        transform: scale(0.8,0.8);
     }
 
     100%{
-        transform: translateX(0px);
+        transform: scale(1,1);
     }
 }
 
@@ -804,28 +804,19 @@ nav{
      /* Media Query for First Section for Tab  */
 
     .first-section{
-        max-width: 950px;
-        margin: 50px auto 0;
-        overflow-x: hidden;
-        display: flex;
-        justify-content: space-between;
-    }
     
+        display: flex;
+        flex-direction: column-reverse;
+        
+       
+    }
+
     .first-section-left{
-        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
-    .first-section-right{
-        width: 400px;
-    }
-
-    .first-section-left h1{
-        width: 511px;
-    }
-
-    .first-section-right img{
-        width: 100%;
-        padding: 0 10px;
-    } 
 
 
     /* Media Query for Second Section for Tab  */
@@ -842,7 +833,7 @@ nav{
         grid-template-rows: repeat(2, 1fr);
         border: none;
         grid-row-gap: 20px ;
-        grid-column-gap: 100px;
+        grid-column-gap: 50px;
         justify-items: center;
         grid-template-areas: ". . a am d e . ."
                             ". . r t w . . .";
