@@ -604,9 +604,65 @@ nav{
         width: 100%;
     } 
 
-    /* .first-section-left h1{
-        width: 500px;
-    } */
+     .mobile-view-cart-search{
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+    .mobile-view-cart-search a{
+    display: inline-block;
+    margin-right: 10px;
+    color: #1B1B1B;
+
+    }
+
+    .nav-left{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nav-left h1{
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+    .nav-right ul{
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-row-gap: 15px;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: rgba(145, 135, 135, 0.527);
+        padding: 20px 0;
+        transform: translateY(-330px);
+        transition: 0.2 s ease-in-out;
+        justify-content: center;
+        justify-items: center;
+    }
+
+     .nav-toggler-icon{
+        display: block;
+        margin-right: px;
+    }
+
+     #nav-toggler:checked ~ .nav-right ul{
+        transform: translateY(10px);
+    }
+     #nav-toggler:checked ~ .nav-right ul li:nth-child(6) {
+         display: none;
+    }
+     #nav-toggler:checked ~ .nav-right ul li:nth-child(5) {
+         display: none;
+    }
+
+    .nav-right ul li a{
+        color: white;
+    }
+
 
 
 }
