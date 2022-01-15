@@ -528,6 +528,8 @@ nav{
     body{
         overflow-x: hidden;
     }
+
+    /* Media Query of Header for Mobile Starts  */
     
     .mobile-view-cart-search{
         display: inline-block;
@@ -610,6 +612,7 @@ nav{
     padding: 0 30px;
 }
 
+    /* Media Query for First Section for Mobile  */
 
     .first-section{
         display: flex;
@@ -638,7 +641,7 @@ nav{
     }
    
 
-
+    /* Media Query for Second Section for Mobile  */
 
     .second-section{
         margin-top: 50px;
@@ -696,10 +699,15 @@ nav{
        
     }
 
+    /* Media Query for Third Section for Mobile  */
+
     .products-list{
         display: grid;
         grid-template-columns: 1fr;
     }
+
+
+    /* Media Query for Bonus Section for Mobile  */
 
     .bonus-section{
         overflow-x: hidden;
@@ -732,6 +740,8 @@ nav{
         width: 250px;
     }
 
+    /* Media Query for Footer Section for Mobile  */
+
     .footer{
         height: 211px;
     }
@@ -746,38 +756,14 @@ nav{
     
 }
 
-/* Media Query for Tab  */
+/* Media Query For Mobile Ends  */
+
+
+/* Media Query for Tab  Starts */
 
 @media only screen and (min-width: 689px) and (max-width: 992px) {
-    
-
-    .products-list{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .first-section{
-        max-width: 950px;
-        margin: 50px auto 0;
-        overflow-x: hidden;
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .first-section-left{
-        width: 400px;
-    }
-    .first-section-right{
-        width: 400px;
-    }
-
-    .first-section-left h1{
-        width: 511px;
-    }
-
-    .first-section-right img{
-        width: 100%;
-    } 
+       
+    /* Media Query for Header Section for Tab  */
 
      .mobile-view-cart-search{
         display: inline-block;
@@ -834,12 +820,49 @@ nav{
          display: none;
     }
 
+
+     /* Media Query for First Section for Tab  */
+
+    .first-section{
+        max-width: 950px;
+        margin: 50px auto 0;
+        overflow-x: hidden;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .first-section-left{
+        width: 400px;
+    }
+    .first-section-right{
+        width: 400px;
+    }
+
+    .first-section-left h1{
+        width: 511px;
+    }
+
+    .first-section-right img{
+        width: 100%;
+    } 
+
+
+
+   /* Media Query for Third Section for Tab  */
+    .products-list{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+
+
+    /* Media Query for Bonus Section for Tab  */
    
 
     .bonus-section{
         display: flex;
-        /* align-items: center;
-        justify-content: center; */
+
     }
 
     .bonus-info{
@@ -863,12 +886,6 @@ nav{
 
 }
 
-
-
-
-
-
-
-
+/* Media Query For Tab Ends  */
 
 /* Media Queries Ends */
