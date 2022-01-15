@@ -42,8 +42,16 @@
 
     <header>
         <nav class="container">
+            <input type="checkbox" id="nav-toggler">
+            <label class="nav-toggler-icon" for="nav-toggler">
+                <i class="card-icon fas fa-bars"></i>
+            </label>
             <div class="nav-left">
                 <h1>Influencer Products</h1>
+            </div>
+            <div class="mobile-view-cart-search">
+                <a href=""><i class="fas fa-shopping-cart"></i>
+               </a>
             </div>
             <div class="nav-right">
                 <div class="nav-items">
@@ -53,7 +61,7 @@
                         <li><a href="#">Sign Up</a></li>
                         <li><a href="#">Login</a></li>
                         <li><a href="#"><i class="fas fa-search"></i></a></li>
-                        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                        <li id="cart-list"><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
                     </ul>
                 </div>
             </div>
