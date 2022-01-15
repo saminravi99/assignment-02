@@ -45,7 +45,12 @@ font-family: 'Poppins', sans-serif;
     background-color: #E02C6D;
     margin-top: 16px ;
     border: none;
+    transition: transform 0.3s linear;
     
+}
+
+.common-button:hover{
+    transform: scale(1.1,1.1);
 }
 
 
