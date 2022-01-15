@@ -398,8 +398,16 @@ nav{
 
 /* Media Queries Starts */
 
+
+/* Media Query for Mobile Devices  */
+
 @media only screen and (max-width: 688px) {
     
+
+
+    body{
+        overflow-x: hidden;
+    }
     
     .mobile-view-cart-search{
         display: inline-block;
