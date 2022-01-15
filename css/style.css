@@ -623,6 +623,37 @@ nav{
         grid-template-columns: 1fr;
     }
 
+    .bonus-section{
+        overflow-x: hidden;
+        max-width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    .bnonus-image img{
+        border-radius: 5px;
+    }
+
+    .bonus-info{
+        width: 100%;
+        margin: 30px auto 0;
+        
+    }
+
+
+    .bonus-info h1{
+        font-size: 24px;
+    }
+
+    .bonus-info p{
+        font-size: 12px;
+        border-top: 10px;
+        width: 250px;
+    }
+
     .footer{
         height: 211px;
     }
@@ -727,6 +758,29 @@ nav{
 
     .nav-right ul li a{
         color: white;
+    }
+
+    .bonus-section{
+        display: flex;
+        /* align-items: center;
+        justify-content: center; */
+    }
+
+    .bonus-info{
+        width: 100%;
+        margin: 0px 10px 0 40px;
+        
+    }
+
+
+    .bonus-info h1{
+        font-size: 24px;
+    }
+
+    .bonus-info p{
+        font-size: 12px;
+        border-top: 10px;
+        width: 300px;
     }
 
 
